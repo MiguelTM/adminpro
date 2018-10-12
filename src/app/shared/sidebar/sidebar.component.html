@@ -22,10 +22,10 @@
                             <a href="javascript:void()">Inbox</a>
                         </li>
                         <li>
-                            <a routerLinkActive="Active" routerLink="/account-settings">Account Setting</a>
+                            <a routerLinkActive="active" routerLink="/account-settings">Account Setting</a>
                         </li>
                         <li>
-                            <a routerLink="/login">Logout</a>
+                            <a (click)="_usuarioService.logout()" class="pointer">Logout</a>
                         </li>
                     </ul>
                 </li>
